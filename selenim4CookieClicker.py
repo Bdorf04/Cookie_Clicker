@@ -1,22 +1,19 @@
-#This is an auto cookie clicker bot but it's really inneficcient 😭😭😭
+#Automatic Cookie Clicker Bot
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 import time
 
 driver=webdriver.Chrome()
-driver.get("https://orteil.dashnet.org/cookieclicker/")
+driver.get("https://orteil.dashnet.org/cookieclicker/") 
 
 driver.implicitly_wait(2)
 lang=driver.find_element(By.ID, "langSelect-EN")
 lang.click()
 
-time.sleep(4)
+driver.implicitly_wait(4)
 
 count=driver.find_element(By.ID, "cookies")
 cookie=driver.find_element(By.ID, "bigCookie")
-
-for i in range(10):
-    cookie.click()
 
 c1,c2,c3,c4,c5,c6,c7,c0,c8=0,0,0,0,0,0,0,0,0
 while True:
