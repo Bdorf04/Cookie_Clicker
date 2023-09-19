@@ -44,17 +44,16 @@ for i in range(2):
 
 for i in range(5000):
     cookie.click()
-print('right behin the farms')
+
 upgrade=driver.find_element(By.ID, "product2")  #Buying 10 Farms
 for i in range(10):
     upgrade.click()
-print("bought the farms")
+
 for i in range(5000):
     cookie.click()
 
 driver.find_element(By.CSS_SELECTOR, ".crate.upgrade.enabled").click()  #Buying next 2 upgrades
 
-print("We made it here!!!")
 for i in range(5):
     cookie.click(10000)
     for i in range(10):

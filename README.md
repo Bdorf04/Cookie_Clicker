@@ -5,11 +5,11 @@ This Cookie Clicker bot automatically progresses you in the game, up until the t
 
 ### How to Use this bot
 
-1. Downlaod Python [Here][https://www.python.org/downloads/]
+1. Downlaod Python ![Here][https://www.python.org/downloads/]
 
-2. Downlaod Selenium [Here][https://pypi.org/project/selenium/]
+2. Downlaod Selenium ![Here][https://pypi.org/project/selenium/]
 
-4. Download a webdriver. I use the chrome Webdriver, attached [Here][https://chromedriver.chromium.org/downloads] Keep in mind, some selenium versions and webdrivers force you to set up a path, but the newest selenium and webdriver versions do it automatically. 
+4. Download a webdriver. I use the chrome Webdriver, attached ![Here][https://chromedriver.chromium.org/downloads] Keep in mind, some selenium versions and webdrivers force you to set up a path, but the newest selenium and webdriver versions do it automatically. 
 
 3. Clone this repository, and run the bot!
 
