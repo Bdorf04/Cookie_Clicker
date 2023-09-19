@@ -64,6 +64,7 @@ while True:
             c4+=1
             upgrade=driver.find_element(By.ID, "product4")
             upgrade.click()
+            print("Factory Bought")
     except:
         pass
     try:
@@ -73,6 +74,7 @@ while True:
             c5+=1
             upgrade=driver.find_element(By.ID, "product3")
             upgrade.click()
+            print("Mine Bought")
     except:
         pass
     try:
@@ -82,6 +84,7 @@ while True:
             c6+=1
             upgrade=driver.find_element(By.ID, "product2")
             upgrade.click()
+            print("Farm Bought")
     except:
         pass
     try:
@@ -91,6 +94,7 @@ while True:
             c7+=1
             upgrade=driver.find_element(By.ID, "product1")
             upgrade.click()
+            print("Grandma Bought")
     except:
         pass
     try:
@@ -100,5 +104,6 @@ while True:
             c8+=1
             upgrade=driver.find_element(By.ID, "product0")
             upgrade.click()
+            print("Cursor Bought")
     except:
         pass
