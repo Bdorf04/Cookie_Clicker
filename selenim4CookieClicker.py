@@ -39,7 +39,7 @@ for i in range(500):
     cookie.click()
 
 for i in range(2):
-    driver.find_element(By.CSS_SELECTOR, ".crate.upgrade.enabled").click()  #Buying 2 upgrades'
+    driver.find_element(By.CSS_SELECTOR, ".crate.upgrade.enabled").click()  #Buying 2 upgrades
     driver.implicitly_wait(2)
 
 for i in range(5000):
